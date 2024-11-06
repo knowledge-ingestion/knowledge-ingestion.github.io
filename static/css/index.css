@@ -129,9 +129,24 @@ body {
   background: #000000;
 }
 
-.eql-cntrb { 
+.eql-cntrb {
   font-size: smaller;
 }
 
+.smaller-image {
+  max-width: 600px; /* or whatever width you prefer */
+  width: 100%;
+  height: auto;
+  margin: 0 auto; /* This centers the image if it's smaller than its container */
+  display: block;
+}
 
-
+.smaller-text {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: #333; /* Darker text color for better contrast */
+  margin-top: 1rem; /* Add some space above the text */
+  max-width: 90%; /* Constrain the width of the text */
+  margin-left: auto;
+  margin-right: auto;
+}
